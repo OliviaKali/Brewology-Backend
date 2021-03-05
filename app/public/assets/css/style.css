@@ -1,0 +1,77 @@
+.jumbotron {
+    background-image: url("https://files.slack.com/files-pri/TKD85M50X-FLDM0TAMD/beer-stock3.jpg");
+    color: rgb(255, 255, 255);
+    padding-bottom: 10px;
+    max-width: 100%;
+    background-position: left;
+    background-color: black;
+    background-repeat: no-repeat;
+    max-height: 100%;
+    border-color: black;
+
+}
+
+body {
+    background-image: url("https://ae01.alicdn.com/kf/HTB1z4mMIVXXXXbeXFXXq6xXFXXXc/7X5ft-free-shipping-Thin-vinyl-fabric-computer-Printed-photography-background-wood-floor-photo-backdrops-for-photo.jpg");
+    border-color: black;
+
+}
+
+.card-body {
+    background-image: url("../images/image.png");
+}
+
+#quizForm {
+    background-color: beige;
+    padding: 2%;
+    padding-left: 7%;
+}
+
+.results {
+    background-color: beige;
+    margin: 2%;
+}
+
+#brewology {
+    width: 100%;
+    border-color: black;
+
+}
+
+.yelp-images {
+    width: 100%;
+}
+
+#searchBar {
+    margin-bottom: 30px;
+    background-color: beige
+}
+
+#surveycard {
+    background-color: beige;
+}
+
+#yelpArticles {
+    background-image: url("https://files.slack.com/files-pri/TKD85M50X-FL8L5CW49/image.png");
+}
+
+.giffyResult {
+    float: left;
+    padding-right: 3%;
+}
+
+#submit-btn {
+    margin-top: 5%;
+}
+
+#beerPic {
+    width: 100%;
+}
+
+.yelpLogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70px;
+    height: 40px;
+}
