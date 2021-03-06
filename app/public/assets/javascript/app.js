@@ -32,11 +32,8 @@ $(document).ready(function () {
      
         // var url = `https://cors-anywhere.herokuapp.com/https://api.yelp.com/v3/businesses/search`;
        
-        var url = `https://api.yelp.com/v3/businesses/search`;
-        var yelpKey =
-          "Mkvzgj8Vt_NhJJHmP7s5yNOYpOB5P6NgLK6ev6O8HyrhXvhn9nisG3WvUovYSz1PHe3cqnhK8LUThY4AoXJ1O17QoBlD-S4IlovdzhUX2BB0j5RCO3kp4w-R1WknXXYx";
-    
         $.ajax({
+          
           type: "GET",
           url: url,
           headers: {

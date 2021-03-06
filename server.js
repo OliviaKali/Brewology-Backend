@@ -23,10 +23,13 @@ let yelpREST = axios.get({
     headers: {
       Authorization: `Bearer ${YELP_Key}`,
       "Content-type": "application/json",
+    //   "Access-Control-Allow-Origin": "http://localhost:8080/",
     },
     data: {
         term: "brewery",
-        location: userLocation }
+        location: res.location
+        // location: req.query.location
+     }
   })
   
   yelpREST(ENDPOINT, { params: { key: value } }).then(({ data }) => {
