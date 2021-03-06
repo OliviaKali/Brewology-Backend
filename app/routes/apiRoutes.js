@@ -1,11 +1,12 @@
 const axios = require('axios');
 const { response } = require('express');
+var router = require("express").Router();
 
 require("dotenv").config();
 //var keys = require ("../../keys");
 
 var YELP_Key = process.env.YELP_Key;
-
+router.post("/api/search", function(req, res) {
 let yelpREST = axios.get({
     // "https://api.yelp.com/v3/businesses/search", function(req, res)
     baseURL: "https://api.yelp.com/v3/businesses/search",
@@ -22,6 +23,7 @@ let yelpREST = axios.get({
       console.log(value);
     // Do something with the data
   })
+});
 
 
 // axios.get(`https://api.yelp.com/v3/businesses/search`)

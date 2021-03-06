@@ -9,7 +9,7 @@ $(document).ready(function () {
     
       // $("#yelpArticles").hide();
     
-      $("#run-search").on("click", function () {
+      $("#run-search").on("click", function (event) {
         event.preventDefault();
         $("#yelpArticles").empty();
         var userLocation = $(".location-input").eq(0).val();
@@ -47,6 +47,7 @@ $(document).ready(function () {
             location: userLocation
           }
         }).then(function (response) { 
+          console.log(response);
     
           // looping through all of the yelp businesses to display the name, address, and image
           for (var i = 0; i < 12; i++) {
